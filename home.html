@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Télésurveillance</title>
+  <style>
+    /* Reset default styles for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+/* Style the services section */
+.services {
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.services li {
+  margin-bottom: 0.5rem;
+}
+
+/* Style the action section */
+.action {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.action h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Télésurveillance</h1>
+    
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h2>Votre sécurité est notre priorité</h2>
+      <p>Nous proposons des solutions de télésurveillance pour mettre nos services rapide.</p>
+      <a href="#" class="button">En savoir plus</a>
+    </section>
+    
+    <section class="services">
+      <h2>Nos services</h2>
+      <ul>
+        <li>Surveillance 24/7</li>
+        <li>Détection d'intrusion</li>
+        <li>Alarme incendie</li>
+        <li>Vidéosurveillance</li>
+      </ul>
+    </section>
+
+    <label for="debit">Débit d'eaux:</label>
+<input type="number" id="debit" name="debit" value="0" step="0.01" />
+<span>m³/s</span>
+  
+<div>
+  <label for="niveau-eau">Niveau d'eau :</label>
+  <input type="number" id="niveau-eau" name="niveau-eau" value="0">
+  <span>mètres</span>
+</div>
+  <footer>
+    <p>&copy; Télésurveillance 2023</p>
+  </footer>
+</body>
+</html>

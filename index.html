@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <style>
+    /* Reset default styles for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+/* Style the services section */
+.services {
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.services li {
+  margin-bottom: 0.5rem;
+}
+
+/* Style the action section */
+.action {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.action h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+footer p {
+  font-size: 1.5rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Télésurveillance</h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Connexion</h2>
+      <form action="authentification.php" method="post">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+    
+        <button type="submit">Se connecter</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; Télésurveillance 2023</p>
+  </footer>
+</body>
+</html>
